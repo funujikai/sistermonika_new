@@ -1,0 +1,10 @@
+version: '3.3'
+
+services:  
+  aplikasi:
+    image: 10.63.8.69/fzainal0707/sistermonika:latest
+    # deploy:
+    #     replicas: 5
+    ports:
+      - "30005:80"  
+      
